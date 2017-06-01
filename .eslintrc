@@ -1,0 +1,42 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    // Restrict file extensions that may be required
+    "react/require-extension": "off",
+
+    // Prevent missing parentheses around multilines JSX
+    "react/jsx-wrap-multilines": "off",
+
+    // only .jsx files may have JSX
+    "react/jsx-filename-extension": "off",
+
+    // Prevent missing displayName in a React component definition
+    "react/display-name": ["error", {
+      "ignoreTranspilerName": false
+    }],
+
+    // enforce newline at the end of file, with no multiple empty lines
+    "eol-last": "off",
+
+    // specify the maximum length of a line in your program
+    "max-len": "off",
+
+    // disable the need to set default value for props
+    "react/require-default-props": "off",
+
+    // disallow reassignment of function parameters
+    // disallow parameter object manipulation
+    "no-param-reassign": ["error", {
+      "props": false
+    }],
+
+    // disable warning for propTypes.object
+    "react/forbid-prop-types": "off",
+    
+    "jsx-a11y/label-has-for": "off",
+
+    "no-use-before-define": "off",
+
+    "arrow-body-style": 0
+  }
+}
