@@ -1,0 +1,3 @@
+rootProject.name = 'reactNativeSimpleBoiler'
+
+include ':app'
